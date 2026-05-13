@@ -1,0 +1,16 @@
+Django==5.2.5
+djangorestframework==3.16.1
+djangorestframework_simplejwt==5.5.1
+django-cors-headers==4.9.0
+django-filter==25.1
+PyJWT==2.10.1
+
+pillow==11.3.0
+python-dotenv==1.0.1
+
+# Production stack (optional, used when DB_ENGINE/DJANGO_DEBUG point to prod)
+gunicorn==23.0.0
+psycopg2==2.9.10
+
+# Test runner
+pytest==7.1.2
